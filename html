@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pong</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="scoreboard">
+      <span id="score-left">0</span>
+      <span id="divider">:</span>
+      <span id="score-right">0</span>
+    </div>
+    <canvas id="pong" width="800" height="500"></canvas>
+    <div id="controls-hint">
+      <span>W / S &mdash; Left Paddle</span>
+      <span>&uarr; / &darr; &mdash; Right Paddle</span>
+    </div>
+    <div id="message" class="hidden">Press <strong>Space</strong> to start</div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
